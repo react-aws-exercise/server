@@ -9,7 +9,7 @@ app.get('/select', function (req, res, next) {
     console.log('select');
     const mysql = require('mysql');  // mysql 모듈 로드
     const conn = {  // mysql 접속 설정
-        host: '13.231.174.37',
+        host: '54.199.43.5',
         port: '13306',
         user: 'tiger',
         password: '1234',
@@ -33,7 +33,7 @@ app.post('/insert', function (req, res, next) {
     console.log('insert');
     const mysql = require('mysql');  // mysql 모듈 로드
     const conn = {  // mysql 접속 설정
-        host: '13.231.174.37',
+        host: '54.199.43.5',
         port: '13306',
         user: 'tiger',
         password: '1234',
@@ -58,7 +58,7 @@ app.post('/update', function (req, res, next) {
     console.log('update');
     const mysql = require('mysql');  // mysql 모듈 로드
     const conn = {  // mysql 접속 설정
-        host: '13.231.174.37',
+        host: '54.199.43.5',
         port: '13306',
         user: 'tiger',
         password: '1234',
@@ -83,7 +83,7 @@ app.post('/delete', function (req, res, next) {
     console.log('delete');
     const mysql = require('mysql');  // mysql 모듈 로드
     const conn = {  // mysql 접속 설정
-        host: '13.231.174.37',
+        host: '54.199.43.5',
         port: '13306',
         user: 'tiger',
         password: '1234',
